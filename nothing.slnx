@@ -1,0 +1,14 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/AppHost/">
+    <Project Path="AppHost/Nothing.AppHost.csproj" />
+  </Folder>
+  <Folder Name="/Nothing.Gateway/" />
+  <Folder Name="/Nothing.Gateway/Api/">
+    <Project Path="Nothing.Gateway/Api/Nothing.Gateway.Api.csproj" />
+  </Folder>
+</Solution>
