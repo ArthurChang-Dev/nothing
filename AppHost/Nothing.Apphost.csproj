@@ -1,0 +1,17 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.2">
+
+  <PropertyGroup>
+    <IsAspireHost>true</IsAspireHost>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>c9e064f6-c32f-4b77-8ff3-c8fa3db81988</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nothing.Gateway\Api\Nothing.Gateway.Api.csproj" />
+  </ItemGroup>
+
+</Project>
